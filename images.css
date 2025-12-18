@@ -1,0 +1,14 @@
+
+figure {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+
+figcaption {
+    color: darkblue;
+    font-style: italic;
+}
