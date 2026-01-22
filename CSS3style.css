@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* RGB */
+.rgb {
+    color: rgb(100%, 40%, 10%);
+}
+
+/* RGBA */
+.rgba {
+    color: rgba(100%, 40%, 10%, 0.5);
+}
+
+/* HSL */
+.hsl {
+    color: hsl(370, 100%, 50%);
+}
+
+/* HSLA */
+.hsla {
+    color: hsla(370, 100%, 50%, 0.5);
+}
+
+/* RGBA fade */
+.fade {
+    color: rgba(255, 0, 0, 1);
+}
+
+.a1 { color: rgba(255, 0, 0, 0.9); }
+.a2 { color: rgba(255, 0, 0, 0.8); }
+.a3 { color: rgba(255, 0, 0, 0.7); }
+.a4 { color: rgba(255, 0, 0, 0.6); }
+.a5 { color: rgba(255, 0, 0, 0.5); }
+.a6 { color: rgba(255, 0, 0, 0.4); }
+.a7 { color: rgba(255, 0, 0, 0.3); }
+.a8 { color: rgba(255, 0, 0, 0.2); }
+.a9 { color: rgba(255, 0, 0, 0.1); }
+.a10 { color: rgba(255, 0, 0, 0); }
+
+/* HSL white to black fade */
+.light { font-weight: bold; }
+
+.l100 { color: hsl(0, 0%, 100%); }
+.l90 { color: hsl(0, 0%, 90%); }
+.l80 { color: hsl(0, 0%, 80%); }
+.l70 { color: hsl(0, 0%, 70%); }
+.l60 { color: hsl(0, 0%, 60%); }
+.l50 { color: hsl(0, 0%, 50%); }
+.l40 { color: hsl(0, 0%, 40%); }
+.l30 { color: hsl(0, 0%, 30%); }
+.l20 { color: hsl(0, 0%, 20%); }
+.l10 { color: hsl(0, 0%, 10%); }
