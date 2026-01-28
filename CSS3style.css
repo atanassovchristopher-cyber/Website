@@ -1,53 +1,60 @@
 body {
-    font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #eee;
+  font-family: Arial, sans-serif;
+  padding: 40px;
 }
 
-/* RGB */
 .rgb {
-    color: rgb(100%, 40%, 10%);
+  color: rgb(255, 102, 26);
+  font-size: 36px;
+  text-align: center;
 }
 
-/* RGBA */
 .rgba {
-    color: rgba(100%, 40%, 10%, 0.5);
+  color: rgba(255, 102, 26, 0.5);
+  font-size: 24px;
 }
 
-/* HSL */
 .hsl {
-    color: hsl(370, 100%, 50%);
+  color: hsl(10, 100%, 50%);
+  font-size: 24px;
 }
 
-/* HSLA */
 .hsla {
-    color: hsla(370, 100%, 50%, 0.5);
+  color: hsla(10, 100%, 50%, 0.5);
+  font-size: 24px;
 }
 
 /* RGBA fade */
 .fade {
-    color: rgba(255, 0, 0, 1);
+  font-size: 20px;
 }
 
-.a1 { color: rgba(255, 0, 0, 0.9); }
-.a2 { color: rgba(255, 0, 0, 0.8); }
-.a3 { color: rgba(255, 0, 0, 0.7); }
-.a4 { color: rgba(255, 0, 0, 0.6); }
-.a5 { color: rgba(255, 0, 0, 0.5); }
-.a6 { color: rgba(255, 0, 0, 0.4); }
-.a7 { color: rgba(255, 0, 0, 0.3); }
-.a8 { color: rgba(255, 0, 0, 0.2); }
-.a9 { color: rgba(255, 0, 0, 0.1); }
-.a10 { color: rgba(255, 0, 0, 0); }
+.a1 { color: rgba(255, 102, 26, 1); }
+.a2 { color: rgba(255, 102, 26, 0.9); }
+.a3 { color: rgba(255, 102, 26, 0.8); }
+.a4 { color: rgba(255, 102, 26, 0.7); }
+.a5 { color: rgba(255, 102, 26, 0.6); }
+.a6 { color: rgba(255, 102, 26, 0.5); }
+.a7 { color: rgba(255, 102, 26, 0.4); }
+.a8 { color: rgba(255, 102, 26, 0.3); }
+.a9 { color: rgba(255, 102, 26, 0.2); }
+.a10 { color: rgba(255, 102, 26, 0.1); }
 
 /* HSL white to black fade */
-.light { font-weight: bold; }
+.light {
+  font-size: 20px;
+}
 
 .l100 { color: hsl(0, 0%, 100%); }
-.l90 { color: hsl(0, 0%, 90%); }
-.l80 { color: hsl(0, 0%, 80%); }
-.l70 { color: hsl(0, 0%, 70%); }
-.l60 { color: hsl(0, 0%, 60%); }
-.l50 { color: hsl(0, 0%, 50%); }
-.l40 { color: hsl(0, 0%, 40%); }
-.l30 { color: hsl(0, 0%, 30%); }
-.l20 { color: hsl(0, 0%, 20%); }
-.l10 { color: hsl(0, 0%, 10%); }
+.l90  { color: hsl(0, 0%, 90%); }
+.l80  { color: hsl(0, 0%, 80%); }
+.l70  { color: hsl(0, 0%, 70%); }
+.l60  { color: hsl(0, 0%, 60%); }
+.l50  { color: hsl(0, 0%, 50%); }
+.l40  { color: hsl(0, 0%, 40%); }
+.l30  { color: hsl(0, 0%, 30%); }
+.l20  { color: hsl(0, 0%, 20%); }
+.l10  { color: hsl(0, 0%, 10%); }
+
