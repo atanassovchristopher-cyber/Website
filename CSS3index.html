@@ -1,49 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>CSS3 Color Making Page</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Color Scheme Proposal</title>
+
+<style>
+/* === COLOR VARIABLES === */
+:root {
+  --bg-main: hsl(220, 30%, 96%);
+  --bg-header: hsl(250, 35%, 25%);
+  --text-header: hsl(0, 0%, 100%);
+  --text-body: hsl(230, 20%, 20%);
+  --menu-text: hsl(220, 30%, 85%);
+  --accent: hsl(30, 90%, 55%);
+}
+
+/* === PAGE STYLES === */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-body);
+}
+
+header {
+  background-color: var(--bg-header);
+  color: var(--text-header);
+  padding: 20px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav span {
+  margin-right: 20px;
+  color: var(--menu-text);
+}
+
+main {
+  padding: 30px;
+}
+
+.accent {
+  color: var(--accent);
+  font-weight: bold;
+}
+</style>
 </head>
+
 <body>
 
-    <h1 class="rgb">RGB 100%, 40%, 10%</h1>
+<header>
+  <h1>Handcrafted Harmony</h1>
+  <nav>
+    <span>Home</span>
+    <span>About</span>
+    <span>Gallery</span>
+    <span>Contact</span>
+  </nav>
+</header>
 
-    <p class="rgba">RGBA 100%, 40%, 10%, .5</p>
-
-    <p class="hsl">HSL 370, 100%, 50%</p>
-
-    <p class="hsla">HSLA 370, 100%, 50%, .5</p>
-
-    <p>
-        RGBA Fade to transparent by step .1:
-        <br>
-        <span class="fade a1">Going...</span>
-        <span class="fade a2">Going...</span>
-        <span class="fade a3">Going...</span>
-        <span class="fade a4">Going...</span>
-        <span class="fade a5">Going...</span>
-        <span class="fade a6">Going...</span>
-        <span class="fade a7">Going...</span>
-        <span class="fade a8">Going...</span>
-        <span class="fade a9">Going...</span>
-        <span class="fade a10">Gone...</span>
-    </p>
-
-    <p>
-        HSL Fade white to black by step 10%:
-        <br>
-        <span class="light l100">White Going...</span>
-        <span class="light l90">White Going...</span>
-        <span class="light l80">White Going...</span>
-        <span class="light l70">White Going...</span>
-        <span class="light l60">White Going...</span>
-        <span class="light l50">White Going...</span>
-        <span class="light l40">White Going...</span>
-        <span class="light l30">White Going...</span>
-        <span class="light l20">White Going...</span>
-        <span class="light l10">White Gone...</span>
-    </p>
+<main>
+  <p>
+    This website embraces a calm sense of order and clarity while reflecting
+    appreciation for nature and handmade artistry. The cool blues and purples
+    provide balance and focus, while the
+    <span class="accent">warm citrus accent</span>
+    adds energy and warmth inspired by flowers, spice, and global culture.
+  </p>
+</main>
 
 </body>
 </html>
+
