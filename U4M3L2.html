@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>U4M3L2 - Relational Selectors</title>
+
+    <style>
+
+        /* 1️⃣ Descendent Selector */
+        section p {
+            color: blue;
+            font-weight: bold;
+        }
+
+        /* 2️⃣ Adjacent Sibling Selector */
+        h2 + p {
+            color: red;
+        }
+
+        /* 3️⃣ Child Selector */
+        div > p {
+            background-color: lightgreen;
+            padding: 5px;
+        }
+
+        /* 4️⃣ General Sibling Selector */
+        h3 ~ p {
+            color: purple;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Relational Selectors Demo</h1>
+
+    <!-- Descendent Selector Example -->
+    <section>
+        <p>This paragraph is inside a section (descendent selector).</p>
+        <div>
+            <p>This paragraph is also inside the section (still descendent).</p>
+        </div>
+    </section>
+
+    <!-- Adjacent Sibling Selector Example -->
+    <h2>Adjacent Sibling Example</h2>
+    <p>This paragraph comes right after h2 (adjacent sibling).</p>
+    <p>This paragraph will NOT be red.</p>
+
+    <!-- Child Selector Example -->
+    <div>
+        <p>This is a direct child of div (child selector).</p>
+        <section>
+            <p>This is NOT a direct child of div.</p>
+        </section>
+    </div>
+
+    <!-- General Sibling Selector Example -->
+    <h3>General Sibling Example</h3>
+    <p>This paragraph is a general sibling of h3.</p>
+    <p>This one too is purple.</p>
+    <div>
+        <p>This one is NOT a sibling of h3.</p>
+    </div>
+
+</body>
+</html>
