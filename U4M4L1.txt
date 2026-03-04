@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anchor Pseudo Class Demo</title>
+
+    <style>
+        a {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: 0.3s ease;
+        }
+
+        a:link {
+            color: white;
+            background-color: blue;
+        }
+
+        a:visited {
+            color: white;
+            background-color: purple;
+        }
+
+        a:hover {
+            color: black;
+            background-color: yellow;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: white;
+            background-color: red;
+        }
+
+        a:focus {
+            outline: 3px solid orange;
+            background-color: lightgreen;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Anchor Pseudo-Class Demonstration</h1>
+
+    <p>
+        <a href="https://www.google.com" target="_blank">
+            Click This Link to See Pseudo Classes in Action
+        </a>
+    </p>
+
+    <p>
+        Try:
+        <br>• Hovering over the link
+        <br>• Clicking and holding it
+        <br>• Visiting it and coming back
+        <br>• Using the Tab key to focus it
+    </p>
+
+</body>
+</html>
