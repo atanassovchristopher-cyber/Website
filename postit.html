@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Post-it Notes</title>
+
+<style>
+
+body{
+background-color:#eee;
+font-family: Arial;
+}
+
+/* container for all notes */
+.board{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+padding:20px;
+}
+
+/* base note style */
+.note{
+width:200px;
+height:200px;
+padding:15px;
+box-shadow:5px 5px 10px gray;
+font-weight:bold;
+}
+
+/* different colored notes */
+.note1{
+background-color: #fff9a6;
+transform: rotate(-5deg);
+}
+
+.note2{
+background-color: #a6f7ff;
+transform: rotate(3deg);
+}
+
+.note3{
+background-color: #caffbf;
+transform: rotate(-2deg);
+}
+
+.note4{
+background-color: #ffd6a5;
+transform: rotate(4deg);
+}
+
+.note5{
+background-color: #ffadad;
+transform: rotate(-3deg);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="board">
+
+<div class="note note1">
+Finish homework
+</div>
+
+<div class="note note2">
+Go to practice
+</div>
+
+<div class="note note3">
+Study for test
+</div>
+
+<div class="note note4">
+Work shift at 5
+</div>
+
+<div class="note note5">
+Hang out with friends
+</div>
+
+</div>
+
+</body>
+</html>
