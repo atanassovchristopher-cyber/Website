@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Text Position Assignment</title>
+
+<style>
+body{
+font-family: Arial;
+padding:20px;
+}
+
+/* TEXT INDENT */
+.indent{
+text-indent:50px;
+}
+
+/* TEXT ALIGN */
+.left{
+text-align:left;
+}
+
+.right{
+text-align:right;
+}
+
+.center{
+text-align:center;
+}
+
+.justify{
+text-align:justify;
+width:300px;
+}
+
+/* VERTICAL ALIGN */
+.vAlign span{
+font-size:20px;
+margin-right:10px;
+}
+
+.baseline{ vertical-align:baseline; }
+.sub{ vertical-align:sub; }
+.super{ vertical-align:super; }
+.top{ vertical-align:top; }
+.texttop{ vertical-align:text-top; }
+.middle{ vertical-align:middle; }
+.bottom{ vertical-align:bottom; }
+.textbottom{ vertical-align:text-bottom; }
+
+/* custom values */
+.raise{ vertical-align:10px; }      /* raises */
+.lower{ vertical-align:-10px; }    /* lowers */
+.percent{ vertical-align:50%; }
+
+.box{
+font-size:30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Text Indent</h2>
+<p class="indent">
+This paragraph is indented using text-indent. It pushes the first line inward.
+</p>
+
+<h2>Text Align</h2>
+
+<p class="left">This text is aligned left.</p>
+
+<p class="right">This text is aligned right.</p>
+
+<p class="center">This text is centered.</p>
+
+<p class="justify">
+This paragraph is justified. That means the text stretches so both sides are even, like in a newspaper.
+</p>
+
+<h2>Vertical Align</h2>
+
+<p class="box vAlign">
+Normal
+<span class="baseline">baseline</span>
+<span class="sub">sub</span>
+<span class="super">super</span>
+<span class="top">top</span>
+<span class="texttop">text-top</span>
+<span class="middle">middle</span>
+<span class="bottom">bottom</span>
+<span class="textbottom">text-bottom</span>
+</p>
+
+<h3>Custom Vertical Align Values</h3>
+
+<p class="box vAlign">
+Normal
+<span class="raise">raised (+10px)</span>
+<span class="lower">lowered (-10px)</span>
+<span class="percent">50%</span>
+</p>
+
+</body>
+</html>
